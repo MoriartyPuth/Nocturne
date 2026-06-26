@@ -1,0 +1,144 @@
+{
+  "categories": [
+    "tools",
+    "papers",
+    "reports",
+    "projects",
+    "websites"
+  ],
+  "entries": [
+    {
+      "id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "title": "Vite Build System",
+      "description": "Next-generation frontend tooling with instant HMR and optimized production builds.",
+      "url": "https://vitejs.dev",
+      "category": "tools",
+      "image": "https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&w=600&q=80",
+      "addedAt": "2026-06-20T10:00:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0002-4000-8000-000000000002",
+      "title": "Tailwind CSS Framework",
+      "description": "Utility-first CSS framework for rapidly building custom user interfaces.",
+      "url": "https://tailwindcss.com",
+      "category": "tools",
+      "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80",
+      "addedAt": "2026-06-20T10:05:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0004-4000-8000-000000000004",
+      "title": "Attention Is All You Need",
+      "description": "The foundational transformer architecture paper that revolutionized NLP and beyond.",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "category": "papers",
+      "addedAt": "2026-06-21T09:00:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0005-4000-8000-000000000005",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers",
+      "description": "Bidirectional encoder representations that set new benchmarks across NLP tasks.",
+      "url": "https://arxiv.org/abs/1810.04805",
+      "category": "papers",
+      "addedAt": "2026-06-21T09:30:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0006-4000-8000-000000000006",
+      "title": "GPT-4 Technical Report",
+      "description": "OpenAI's technical report on the capabilities and limitations of GPT-4.",
+      "url": "https://arxiv.org/abs/2303.08774",
+      "category": "papers",
+      "addedAt": "2026-06-21T10:00:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0007-4000-8000-000000000007",
+      "title": "State of JavaScript 2025",
+      "description": "Annual survey results covering frameworks, tooling, and ecosystem trends in JavaScript.",
+      "url": "https://stateofjs.com",
+      "category": "reports",
+      "addedAt": "2026-06-22T14:00:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0008-4000-8000-000000000008",
+      "title": "Stack Overflow Developer Survey 2025",
+      "description": "Comprehensive developer survey covering technologies, salaries, and work preferences.",
+      "url": "https://survey.stackoverflow.co/2025",
+      "category": "reports",
+      "addedAt": "2026-06-22T14:30:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0009-4000-8000-000000000009",
+      "title": "Nocturne Dashboard",
+      "description": "A retro cyberpunk data terminal interface for managing personal knowledge assets.",
+      "url": "https://github.com/moriarty/nocturne",
+      "category": "projects",
+      "addedAt": "2026-06-23T08:00:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0010-4000-8000-000000000010",
+      "title": "Neural Style Transfer Engine",
+      "description": "Real-time artistic style transfer using convolutional neural networks.",
+      "url": "https://github.com/moriarty/neural-style",
+      "category": "projects",
+      "addedAt": "2026-06-23T08:30:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0011-4000-8000-000000000011",
+      "title": "Distributed Task Scheduler",
+      "description": "A fault-tolerant distributed task scheduling system built with Node.js and Redis.",
+      "url": "https://github.com/moriarty/task-scheduler",
+      "category": "projects",
+      "addedAt": "2026-06-23T09:00:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0012-4000-8000-000000000012",
+      "title": "React Documentation",
+      "description": "Official React documentation covering hooks, components, and modern patterns.",
+      "url": "https://react.dev",
+      "category": "tools",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=600&q=80",
+      "addedAt": "2026-06-24T11:00:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0013-4000-8000-000000000013",
+      "title": "Hacker News",
+      "description": "The premier tech news aggregator run by Y Combinator. Essential daily reading for developers.",
+      "url": "https://news.ycombinator.com",
+      "category": "websites",
+      "addedAt": "2026-06-24T12:00:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0014-4000-8000-000000000014",
+      "title": "MDN Web Docs",
+      "description": "The authoritative reference for web standards, HTML, CSS, JavaScript APIs and browser compatibility.",
+      "url": "https://developer.mozilla.org",
+      "category": "websites",
+      "addedAt": "2026-06-24T12:15:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0015-4000-8000-000000000015",
+      "title": "DevDocs",
+      "description": "Fast, offline-capable unified API documentation browser for 100+ programming languages and frameworks.",
+      "url": "https://devdocs.io",
+      "category": "websites",
+      "addedAt": "2026-06-24T12:30:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0016-4000-8000-000000000016",
+      "title": "Can I Use",
+      "description": "Browser compatibility tables for modern web technologies — CSS, HTML5, JavaScript and SVG features.",
+      "url": "https://caniuse.com",
+      "category": "websites",
+      "addedAt": "2026-06-24T12:45:00Z"
+    },
+    {
+      "id": "a1b2c3d4-0017-4000-8000-000000000017",
+      "title": "OWASP Noir",
+      "description": "An attack surface detector that parses your source code to automatically identify API endpoints, parameter structures, and web configurations.",
+      "url": "https://github.com/owasp-noir/noir",
+      "category": "tools",
+      "image": "http://localhost:4000/uploads/6c93cad3-9f87-4ed6-ab21-6d4282159896.jpeg",
+      "review": "Excellent static analysis tool for mapping attack surfaces. It dramatically cuts down time spent finding exposed endpoints, especially shadow/undocumented routes. Highly recommended for security audits and automated CI pipeline integrations.",
+      "addedAt": "2026-06-26T16:02:15Z"
+    }
+  ]
+}
