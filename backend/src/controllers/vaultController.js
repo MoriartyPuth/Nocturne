@@ -51,7 +51,7 @@ async function handleBase64Image(base64DataUrl) {
   await fs.mkdir(uploadsDir, { recursive: true });
   await fs.writeFile(path.join(uploadsDir, filename), buffer);
 
-  return `http://localhost:4000/uploads/${filename}`;
+  return `/uploads/${filename}`;
 }
 
 // ── Auth Middleware ──────────────────────────────────────

@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 
-const API_BASE = 'http://localhost:4000/api/vault';
+const API_BASE = '/api/vault';
 
 /**
  * useVault — Reactive state hook for the Nocturne Vault API.

@@ -61,6 +61,19 @@ app.get('/api/health', (_req, res) => {
   res.json({ status: 'online', timestamp: new Date().toISOString() });
 });
 
+// ── Serve Frontend Static Files (Production) ─────────────
+const frontendBuildDir = path.join(__dirname, '../../frontend/dist');
+if (fs.existsSync(frontendBuildDir)) {
+  app.use(express.static(frontendBuildDir));
+  
+  // Single Page Application (SPA) fallback routing
+  app.get('*', (req, res) => {
+    if (!req.path.startsWith('/api')) {
+      res.sendFile(path.join(frontendBuildDir, 'index.html'));
+    }
+  });
+}
+
 // ── Start ────────────────────────────────────────────────
 app.listen(PORT, () => {
   console.log(`\n  ╔══════════════════════════════════════╗`);

@@ -81,7 +81,7 @@ export default function MainPortfolio() {
   // Fetch live vault entries
   useEffect(() => {
     setLoadingVault(true);
-    fetch('http://localhost:4000/api/vault')
+    fetch('/api/vault')
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
