@@ -287,11 +287,19 @@ export default function TechVault() {
       {/* ── Top Bar ────────────────────────────────────────── */}
       <header className="relative z-10 h-[66px] border-b border-[rgba(34,197,94,0.12)] bg-nocturne-darker/80 backdrop-blur-md flex items-center">
         <div className="flex items-center justify-between px-8 w-full">
-          {/* Left: Logo */}
-          <div className="flex items-center gap-3">
+          {/* Left: Logo + back link */}
+          <div className="flex items-center gap-4">
             <h1 className="text-sm neon-green tracking-[0.2em] uppercase">
               Nocturne
             </h1>
+            <span className="text-nocturne-border text-xs select-none">|</span>
+            <a
+              href="https://MoriartyPuth.github.io"
+              rel="noopener"
+              className="font-mono text-xs text-neon-green/70 hover:text-neon-green transition-colors"
+            >
+              ← portfolio
+            </a>
           </div>
 
           {/* Right: Actions & Status */}
