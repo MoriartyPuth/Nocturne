@@ -285,7 +285,7 @@ export default function TechVault() {
       )}
 
       {/* ── Top Bar ────────────────────────────────────────── */}
-      <header className="relative z-10 h-[77px] border-b border-nocturne-border bg-nocturne-darker/80 backdrop-blur-sm flex items-center">
+      <header className="relative z-10 h-[66px] border-b border-[rgba(34,197,94,0.12)] bg-nocturne-darker/80 backdrop-blur-md flex items-center">
         <div className="flex items-center justify-between px-8 w-full">
           {/* Left: Logo */}
           <div className="flex items-center gap-3">
