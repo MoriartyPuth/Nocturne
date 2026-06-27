@@ -117,6 +117,13 @@ export default function MainPortfolio() {
           
           {/* Nav links */}
           <div className="hidden md:flex items-center gap-6 text-xs font-mono text-nocturne-muted">
+            <a
+              href="https://MoriartyPuth.github.io"
+              rel="noopener"
+              className="flex items-center gap-1.5 hover:text-neon-green transition-colors border-r border-nocturne-border/40 pr-6"
+            >
+              ← portfolio
+            </a>
             <a href="#projects" className="hover:text-white transition-colors">/projects</a>
             <a href="#skills" className="hover:text-white transition-colors">/skills</a>
             <a href="#vault" className="hover:text-white transition-colors">/resource_vault</a>
