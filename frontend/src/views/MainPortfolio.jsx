@@ -110,20 +110,24 @@ export default function MainPortfolio() {
 
       {/* ── Sticky Header Navbar ──────────────────────────────── */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-nocturne-darker/80 backdrop-blur-md border-b border-[rgba(34,197,94,0.12)] h-[66px] px-8 flex items-center transition-all duration-300">
-        <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <a href="#" className="font-mono text-sm tracking-[0.2em] text-white hover:text-neon-green transition-colors">
-            // PRELUDE
-          </a>
-          
-          {/* Nav links */}
-          <div className="hidden md:flex items-center gap-6 text-xs font-mono text-nocturne-muted">
+        <div className="max-w-6xl mx-auto flex items-center justify-between w-full">
+          {/* Left: brand + back link always visible */}
+          <div className="flex items-center gap-4">
+            <a href="#" className="font-mono text-sm tracking-[0.2em] text-white hover:text-neon-green transition-colors">
+              // PRELUDE
+            </a>
+            <span className="text-nocturne-border text-xs select-none">|</span>
             <a
               href="https://MoriartyPuth.github.io"
               rel="noopener"
-              className="flex items-center gap-1.5 hover:text-neon-green transition-colors border-r border-nocturne-border/40 pr-6"
+              className="font-mono text-xs text-neon-green/70 hover:text-neon-green transition-colors flex items-center gap-1"
             >
               ← portfolio
             </a>
+          </div>
+
+          {/* Nav links */}
+          <div className="hidden md:flex items-center gap-6 text-xs font-mono text-nocturne-muted">
             <a href="#projects" className="hover:text-white transition-colors">/projects</a>
             <a href="#skills" className="hover:text-white transition-colors">/skills</a>
             <a href="#vault" className="hover:text-white transition-colors">/resource_vault</a>
